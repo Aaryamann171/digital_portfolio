@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Quicksand";
+}
 #aboutMe {
   padding: 80px;
   background-color: #212730;
@@ -26,6 +32,9 @@
   border-radius: 8px;
   box-shadow: 5px 5px 14px #9e9e9e, -5px -5px 14px #ffffff;
 }
+#skills-heading {
+  color: #335eea;
+}
 #mySkills {
   padding-top: 60px;
   color: #212730;
@@ -33,22 +42,29 @@
   height: 100vh;
 }
 #mySkills h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 #mySkills h4 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
 }
 #mySkills li {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 #skills {
-  padding-top: 10vh;
+  padding-top: 5vh;
+}
+#projects {
+  color: #335eea;
 }
 #myProjects {
   text-align: center;
+  padding-top: 10vh;
+  font-size: 2.5rem;
 }
 h4 {
   font-weight: 500;
+  font-size: 4rem;
 }
 #c1 {
   margin-bottom: 40px;
