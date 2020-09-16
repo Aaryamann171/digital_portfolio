@@ -1,0 +1,55 @@
+#aboutMe {
+  padding: 80px;
+  background-color: #212730;
+  color: #e6e6e6;
+  height: 100vh;
+}
+#myDesc {
+  padding-top: 20vh;
+}
+#aboutMe h1 {
+  font-size: 9em;
+}
+#aboutMe p {
+  font-size: 2em;
+}
+#me {
+  border-radius: 8px;
+  align-items: center;
+  max-width: 100%;
+  box-shadow: 5px 5px 8px #101317, -5px -5px 8px #323b49;
+}
+#coder {
+  max-width: 100%;
+}
+#skillsAndTech {
+  border-radius: 8px;
+  box-shadow: 5px 5px 14px #9e9e9e, -5px -5px 14px #ffffff;
+}
+#mySkills {
+  padding-top: 60px;
+  color: #212730;
+  margin: 40px;
+  height: 100vh;
+}
+#mySkills h1 {
+  font-size: 6rem;
+}
+#mySkills h4 {
+  font-size: 2.5rem;
+}
+#mySkills li {
+  font-size: 3rem;
+}
+#skills {
+  padding-top: 10vh;
+}
+#myProjects {
+  text-align: center;
+}
+h4 {
+  font-weight: 500;
+}
+#c1 {
+  margin-bottom: 40px;
+}
