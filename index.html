@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- <html lang="en" theme='dark-mode'> -->
 <html lang="en">
 
 <head>
@@ -13,7 +14,9 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-fixed-top navbar-inverse">
+  <!-- <nav class="navbar navbar-dark navbar-fixed-top bg-dark"> -->
+  <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light"> -->
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Aaryamann</a>
@@ -24,6 +27,14 @@
         <li><a href="#myProjects">Projects</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li>
+          <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </div>
+        </li>
         <li>
           <a href="https://github.com/aaryamann171" , target="_blank"><span class="fa fa-github"></span> GitHub</a>
         </li>
@@ -44,7 +55,7 @@
       <div id="myDesc">
         <div class="col-lg-8">
           <h1>Hello, <br />I am Aaryamann</h1>
-          <hr />
+          <hr>
           <p>
             A final year B.Tech Computer Science student, specializing in
             Artificial intelligence. I like to play around with various technologies and frameworks and collabrate with
@@ -66,8 +77,8 @@
         <img src="images/others/coder.png" alt="coder" id="coder" />
       </div>
       <div class="col-lg-6" id="skillsAndTech">
-        <h1 id="skills-heading">Skills and Technologies</h1>
-        <hr />
+        <h1>Skills and Technologies</h1>
+        <hr>
         <ul>
           <li>
             <h4>Programming</h4>
@@ -112,8 +123,8 @@
   <!-- projects -->
   <div class="col-lg-12">
     <div class="container-fluid" id="myProjects">
-      <h1 id="projects">Major Projects</h1>
-      <hr />
+      <h1>Major Projects</h1>
+      <hr>
       <br />
       <!-- dbug -->
       <div class="row">
@@ -232,6 +243,21 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+    function switchTheme(e) {
+      if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+      else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    }
+
+    toggleSwitch.addEventListener('change', switchTheme, false);
+  </script>
 </body>
 
 </html>
