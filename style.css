@@ -6,6 +6,7 @@
   --heading-color: #2e3440;
   --shadow-color1: #9e9e9e;
   --shadow-color2: #fff;
+  --active-color: #e5e9f0;
 }
 [data-theme="dark"] {
   --primary-color: #5e81ac;
@@ -15,6 +16,7 @@
   --heading-color: #d8dee9;
   --shadow-color1: #101317;
   --shadow-color2: #323b49;
+  --active-color: #3b4252;
 }
 html {
   scroll-behavior: smooth;
@@ -174,4 +176,52 @@ input:checked + .slider:before {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
   background-color: var(--secondary-color);
+}
+.navbar {
+  background-color: var(--bg-color);
+  padding-right: 20px;
+}
+.active {
+  background-color: var(--active-color);
+}
+@media (max-width: 999px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+    background-color: var(--active-color);
+  }
+  .icon-bar {
+    background-color: var(--primary-color);
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
 }

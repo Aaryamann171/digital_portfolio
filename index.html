@@ -5,6 +5,7 @@
   <title>Aaryamann</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,12 +14,15 @@
 
 <body>
   <!-- navbar -->
-  <!-- <nav class="navbar navbar-dark navbar-fixed-top bg-dark"> -->
-  <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Aaryamann</a>
-      </div>
+  <div class="navbar navbar-dark navbar-fixed-top">
+    <div class="navbar-header"><a class="navbar-brand" href="#">Aaryamann</a>
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="aaryamann_resume.pdf" download>Download Resume</a></li>
         <li><a href="#mySkills">Skills</a></li>
@@ -46,8 +50,7 @@
         </li>
       </ul>
     </div>
-  </nav>
-
+  </div>
   <div class="row">
     <div class="container-fluid" id="aboutMe">
       <div id="myDesc">
@@ -57,13 +60,13 @@
           <p>
             A final year B.Tech Computer Science student, specializing in
             Artificial intelligence. I like to play around with various technologies and frameworks and collabrate with
-            like minded people and create great
+            like minded people to create great
             products which add value to the life of people around me.
           </p>
         </div>
       </div>
-      <div class="col-lg-4">
-        <img src="images/others/aaryamann.png" alt="me" id="me" />
+      <div class="col-lg-4" id="my-img">
+        <img src="images/others/aaryamann_vector.png" alt="me" id="me" />
       </div>
     </div>
   </div>
@@ -235,11 +238,10 @@
             </a>
           </div>
         </div>
-      </div>////
+      </div>
     </div>
   </div>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script>
 
