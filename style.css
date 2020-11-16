@@ -35,7 +35,7 @@ hr {
 }
 #aboutMe {
   padding: 5vh;
-  height: 100%;
+  height: 100vh;
 }
 h1 {
   color: var(--secondary-color);
@@ -43,14 +43,21 @@ h1 {
 a {
   color: var(--secondary-color);
 }
+
 #myDesc {
-  padding-top: 15vh;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  right: 5%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
 }
+
 #aboutMe h1 {
-  font-size: 8vmin;
+  font-size: 9vmin;
 }
 #aboutMe p {
-  font-size: 4vmin;
+  font-size: 4.25vmin;
 }
 #me {
   border-radius: 8px;
@@ -72,10 +79,13 @@ a {
   color: #335eea;
 }
 #mySkills {
-  padding-top: 3vh;
+  position: relative;
+  top: 50%;
+  left: 2%;
+  right: 2%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
   color: #212730;
-  margin: 40px;
-  height: 100%;
 }
 #mySkills h1 {
   font-size: 6vmin;
