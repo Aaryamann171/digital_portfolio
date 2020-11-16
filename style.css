@@ -47,10 +47,10 @@ a {
   padding-top: 15vh;
 }
 #aboutMe h1 {
-  font-size: 7em;
+  font-size: 6vw;
 }
 #aboutMe p {
-  font-size: 2.5rem;
+  font-size: 2vw;
 }
 #me {
   border-radius: 8px;
@@ -78,15 +78,15 @@ a {
   height: 100%;
 }
 #mySkills h1 {
-  font-size: 3.5rem;
+  font-size: 2.5vw;
 }
 #mySkills h4 {
-  font-size: 2rem;
+  font-size: 1.5vw;
   font-weight: 700;
   color: var(--font-color);
 }
 #mySkills li {
-  font-size: 2rem;
+  font-size: 1.5vw;
   color: var(--font-color);
 }
 #skills {
@@ -98,11 +98,11 @@ a {
 #myProjects {
   text-align: center;
   padding-top: 5vh;
-  font-size: 2.5rem;
+  font-size: 2vw;
 }
 h4 {
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 2vw;
 }
 #c1 {
   margin-bottom: 4vh;
