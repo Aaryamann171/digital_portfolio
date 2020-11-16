@@ -18,10 +18,14 @@
   --shadow-color2: #323b49;
   --active-color: #3b4252;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
   transition: color 300ms, background-color 300ms;
-  overflow-x: hidden;
 }
 * {
   font-family: "Quicksand";
