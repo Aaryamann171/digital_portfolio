@@ -34,7 +34,7 @@ hr {
   border-top: 1px var(--font-color) solid;
 }
 #aboutMe {
-  padding: 80px;
+  padding: 8vh;
   height: 100%;
 }
 h1 {
@@ -44,13 +44,13 @@ a {
   color: var(--secondary-color);
 }
 #myDesc {
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 #aboutMe h1 {
-  font-size: 9em;
+  font-size: 7em;
 }
 #aboutMe p {
-  font-size: 2em;
+  font-size: 2.5rem;
 }
 #me {
   border-radius: 8px;
@@ -59,6 +59,7 @@ a {
   box-shadow: 5px 5px 8px var(--shadow-color1),
     -5px -5px 8px var(--shadow-color2);
 }
+
 #coder {
   max-width: 100%;
 }
@@ -71,21 +72,21 @@ a {
   color: #335eea;
 }
 #mySkills {
-  padding-top: 60px;
+  padding-top: 3vh;
   color: #212730;
   margin: 40px;
   height: 100%;
 }
 #mySkills h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 #mySkills h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--font-color);
 }
 #mySkills li {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--font-color);
 }
 #skills {
@@ -96,7 +97,7 @@ a {
 }
 #myProjects {
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
   font-size: 2.5rem;
 }
 h4 {
@@ -104,7 +105,7 @@ h4 {
   font-size: 4rem;
 }
 #c1 {
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
 }
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {

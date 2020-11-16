@@ -4,7 +4,7 @@
 <head>
   <title>Aaryamann</title>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="style.css" />
@@ -54,7 +54,10 @@
   <div class="row">
     <div class="container-fluid" id="aboutMe">
       <div id="myDesc">
-        <div class="col-lg-8">
+        <div class="col-sm-6 col-lg-4" id="myImg">
+          <img src="images/others/aaryamann_vector.png" alt="me" id="me" />
+        </div>
+        <div class="col-sm-6 col-lg-8" id="intro">
           <h1>Hello, <br>I am Aaryamann</h1>
           <hr>
           <p>
@@ -65,19 +68,16 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-4" id="my-img">
-        <img src="images/others/aaryamann_vector.png" alt="me" id="me" />
-      </div>
     </div>
   </div>
 
   <!-- skills section -->
   <div id="mySkills">
     <div clas="row" id="skills">
-      <div class="col-lg-6">
+      <div class="col-xs-6">
         <img src="images/others/coder_vector.png" alt="coder" id="coder" />
       </div>
-      <div class="col-lg-6" id="skillsAndTech">
+      <div class="col-xs-6" id="skillsAndTech">
         <h1>Skills and Technologies</h1>
         <hr>
         <ul>
@@ -122,21 +122,21 @@
     <br />
   </div>
   <!-- projects -->
-  <div class="col-lg-12">
+  <div class="col-xs-12">
     <div class="container-fluid" id="myProjects">
       <h1>Major Projects</h1>
       <hr>
       <br>
       <!-- dbug -->
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-xs-4">
           <h4>dbug</h4>
           <p>
             An online code review tool developed using django. Check it out <a href="http://d-bug.herokuapp.com/" ,
               target="_blank">here.</a>
           </p>
         </div>
-        <div class="col-lg-8" id="c1">
+        <div class="col-xs-8" id="c1">
           <div id="dbug" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -176,7 +176,7 @@
       <br>
       <!-- uniFy -->
       <div class="row">
-        <div class="col-lg-8" id="c1">
+        <div class="col-xs-8" id="c1">
           <div id="unify" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -186,7 +186,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-xs-4">
           <h4>uniFy</h4>
           <p>
             University utility app developed using Flutter a Dart Framework.
@@ -197,13 +197,13 @@
       <br>
       <!-- python car game -->
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-xs-4">
           <h4>Car Game</h4>
           <p>
             A driving game developed using Python library PyGame.
           </p>
         </div>
-        <div class="col-lg-8" id="c1">
+        <div class="col-xs-8" id="c1">
           <div id="pygame" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
