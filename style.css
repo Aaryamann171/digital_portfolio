@@ -50,7 +50,7 @@ a {
 
 #myDesc {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 5%;
   right: 5%;
   transform: translate(0%, -50%);
@@ -58,10 +58,10 @@ a {
 }
 
 #aboutMe h1 {
-  font-size: 9vmin;
+  font-size: 8vmin;
 }
 #aboutMe p {
-  font-size: 4.25vmin;
+  font-size: 3.8vmin;
 }
 #me {
   border-radius: 8px;
