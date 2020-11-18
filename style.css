@@ -115,7 +115,8 @@ a {
   font-size: 3vmin;
 }
 h4 {
-  font-weight: 500;
+  color: var(--primary-color);
+  font-weight: 600;
   font-size: 3vmin;
 }
 #c1 {
