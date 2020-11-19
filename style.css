@@ -241,3 +241,11 @@ input:checked + .slider:before {
     overflow: hidden !important;
   }
 }
+
+button {
+  font-size: 2vmin;
+  border: solid var(--secondary-color) 1px;
+  border-radius: 8px;
+  color: var(--font-color);
+  background-color: var(--primary-color);
+}
