@@ -79,9 +79,6 @@ a {
   box-shadow: 5px 5px 14px var(--shadow-color1),
     -5px -5px 14px var(--shadow-color2);
 }
-#skills-heading {
-  color: #335eea;
-}
 #mySkills {
   position: relative;
   top: 50%;
@@ -105,9 +102,6 @@ a {
 }
 #skills {
   padding-top: 5vh;
-}
-#projects {
-  color: #335eea;
 }
 #myProjects {
   text-align: center;
