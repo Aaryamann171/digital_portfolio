@@ -8,4 +8,4 @@ Have a look at some of my Major Projects like:
 - **uniFy** - a college utility apps for university students
 - [**Synthwave Vroom! Vroom!**](https://github.com/Aaryamann171/Synthwave-Vroom-Vroom) - a fun driving game
 
-You can also download my resume as well as find ways of contacting me :)
+You can also download my resume to more or find ways of contacting me :)
