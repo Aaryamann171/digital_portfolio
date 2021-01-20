@@ -3,6 +3,7 @@
   --secondary-color: #5e81ac;
   --font-color: #212730;
   --bg-color: #eceff4;
+  --bg-alt-color: #D8DEE9;
   --heading-color: #2e3440;
   --shadow-color1: #9e9e9e;
   --shadow-color2: #fff;
@@ -13,6 +14,7 @@
   --secondary-color: #88c0d0;
   --font-color: #eceff4;
   --bg-color: #2e3440;
+  --bg-alt-color: #3B4252;
   --heading-color: #d8dee9;
   --shadow-color1: #101317;
   --shadow-color2: #323b49;
@@ -117,6 +119,7 @@ h4 {
 #c1 {
   margin-bottom: 4vh;
 }
+
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
   padding-top: 7px;
@@ -243,4 +246,8 @@ button {
   border-radius: 8px;
   color: var(--font-color);
   background-color: var(--primary-color);
+}
+
+#myProjects img{
+  border: 2px solid var(--font-color);
 }
