@@ -33,6 +33,7 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--font-color);
+  padding-bottom: 50px;
 }
 hr {
   border-top: 1px var(--font-color) solid;
@@ -81,8 +82,9 @@ a {
   border-radius: 8px;
 }
 #mySkills {
-  position: relative;
+  /* position: relative; */
   /* top: 50%; */
+  margin: 4rem;
   padding-top: 2rem;
   left: 2%;
   right: 2%;
@@ -264,4 +266,7 @@ a:link,
 a:active,
 a.navbar-brand {
   color: var(--font-color);
+}
+.footer{
+  margin-top: 40vmin;
 }
