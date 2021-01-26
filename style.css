@@ -5,18 +5,16 @@
   --bg-color: #fff;
   --bg-alt-color: #eaeefd;
   --heading-color: #000;
-  --active-color: #f7fcfe;
+  --active-color: #eaeefd;
 }
 [data-theme="dark"] {
   --primary-color: #335eea;
   --secondary-color: #476eec;
   --font-color: #eceff4;
   --bg-color: #222222;
-  --bg-alt-color: #3b4252;
+  --bg-alt-color: #1c1c1c;
   --heading-color: #d8dee9;
-  --shadow-color1: #101317;
-  --shadow-color2: #323b49;
-  --active-color: #3b4252;
+  --active-color: #1c1c1c;
 }
 html,
 body {
