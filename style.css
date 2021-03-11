@@ -72,7 +72,6 @@ a {
 }
 
 #coder {
-  margin-top: 10%;
   max-width: 100%;
 }
 #skillsAndTech {
@@ -83,7 +82,7 @@ a {
   /* position: relative; */
   /* top: 50%; */
   margin: 4rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
   left: 2%;
   right: 2%;
   transform: translate(0%, -50%);
