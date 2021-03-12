@@ -19,6 +19,8 @@
 html,
 body {
   max-width: 100%;
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
 }
 html {
@@ -233,12 +235,6 @@ input:checked + .slider:before {
   .collapsing {
     overflow: hidden !important;
   }
-}
-
-button {
-  font-size: 8vmin;
-  background-color: var(--secondary-color);
-  color: var(--font-color);
 }
 
 #myProjects img {
