@@ -266,9 +266,9 @@ a.navbar-brand {
 
 .carousel-indicators li {
   display: inline-block;
-  width: 48px;
-  height: 5px;
-  margin: 10px;
+  width: 5vmin;
+  height: 0.5vmin;
+  margin: 0.2vmin;
   text-indent: 0;
   cursor: pointer;
   border: none;
@@ -278,9 +278,9 @@ list-style-type: square;
 }
 
 .carousel-indicators .active {
-  width: 48px;
-  height: 5px;
-  margin: 10px;
+  width: 5vmin;
+  height: 0.5vmin;
+  margin: 0.2vmin;
   background-color: gainsboro;
 }
 
