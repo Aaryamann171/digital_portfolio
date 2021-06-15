@@ -28,7 +28,7 @@ html {
   transition: color 300ms, background-color 300ms;
 }
 * {
-  font-family: "Quicksand";
+  font-family: 'Roboto Mono', monospace;
 }
 body {
   background-color: var(--bg-color);
