@@ -49,7 +49,6 @@ h1 {
 a {
   color: var(--secondary-color);
 }
-
 #myDesc {
   border: #000 solid 1px;
   border-radius: 8px;
@@ -60,7 +59,6 @@ a {
   transform: translate(0%, -50%);
   -webkit-transform: translate(0%, -50%);
 }
-
 #aboutMe h1 {
   font-size: 8vmin;
 }
@@ -72,7 +70,6 @@ a {
   align-items: center;
   max-width: 100%;
 }
-
 #coder {
   max-width: 100%;
 }
@@ -245,19 +242,6 @@ input:checked + .slider:before {
 a {
   color: var(--font-color);
   font-weight: 800;
-}
-/* visited link */
-a:visited,
-a:active,
-a:link {
-  color: var(--secondary-color);
-}
-
-#my-nav a:visited,
-a:link,
-a:active,
-a.navbar-brand {
-  color: var(--font-color);
 }
 
 .footer{
