@@ -1,6 +1,6 @@
 # Hello There 👋
 
-I am currently in my final year of Computer Science Engineering, specializing in Artificial intelligence. This is the repository for my [digital portfolio](aaryamann171.github.io).<br>
+I am a B.Tech Computer Science grad with specialization in Artificial intelligence. Currently working as a Software Engineer. This is the repository for my [digital portfolio](aaryamann171.github.io).<br> 
 
 Have a look at some of my Major Projects like:
 
